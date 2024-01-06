@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verge - Fake Store API</title>
+    <link rel="stylesheet" href="detalhes.css">
+    <link rel="shortcut icon" href="image/logo png.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        
+
+        #descricaoProduto {
+            font-size: 14px;
+        }
+
+        #searchInput{
+          margin-left: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-white navbar-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png" alt="Bootstrap" width="150" height="150">
+                </a>
+    
+                <span class="navbar-text">
+                    <!-- SEJA BEM VINDO A NOSSA LOJA! -->
+                    <form class="d-flex" role="search">
+                        <input type="search" class="form-control me-2" placeholder="DIGITE AQUI" id="searchInput">
+                        <button type="search" class="btn btn-outline-dark">PESQUISAR</button>
+                    </form>
+                </span>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://ecommerce.larissafr1.repl.co/">INÍCIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cadastrar" target="_blank">CADASTRAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#minhaconta">MINHA CONTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#meuspedidos">MEUS PEDIDOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <section>
+    <h2 id="nomeProduto"></h2>
+    <img src="" alt="" id="imgProduto">
+    <h4 id="precoProduto"></h4>
+    <h4 id="categoriaProduto"></h4>
+    <h4 id="descricaoProduto"></h4>
+  </section>
+
+
+
+ <!-- RODA PÉ -->
+     <!-- RODA PÉ -->
+     <!-- <div class="payments">
+        <footer class="text-center text-white">
+          <div class="text-center p-3" style="background-color: rgb(30, 33, 36);">
+            <div class="container text-center">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+
+                  <p>PAGAMENTO</p>
+                  <a><img src="image/paypal.png" width="50" alt=""></a>
+                  <a><img src="image/visa.png" width="50" alt=""></a>
+                  <a><img src="image/mastercard.png" width="50" alt=""></a>
+                  <a><img src="image/americanexpress.png" width="50" alt=""></a><br>
+                  <a><img src="image/pix.png" width="50" alt=""></a>
+                  <a><img src="image/boleto.png" width="50" alt=""></a>
+                  <a><img src="image/picpay.png" width="50" alt=""></a>
+                </div>
+
+
+                <div class="col">
+                    <p>LINKS DE AJUDA</p><br>
+                    <a class="nav-link active" aria-current="page" href="#">
+                    <h6>AJUDA E SUPORTE</h6>
+                  </a>
+                  <a class="nav-link active" aria-current="page" href="#">
+                    <h6>TERMOS E CONDIÇÕES</h6>
+                  </a>  
+                </div>
+
+                <div class="col">
+                  <p>REDES SOCIAIS</p>
+                  <a href="facebook"><img src="image/facebook.png" width="80" alt=""></a><br>
+                  <br><a href="https://www.instagram.com/vergecompany/" target="_blank"><img src="image/instagram.png" width="30" alt=""></a>
+                  <a href="twitter"><img src="image/twitter.png" width="30" alt=""></a>
+                  <a href="gmail"><img src="image/gmail.png" width="30" alt=""></a>
+                </div>
+
+                <div class="col">
+                  <p>CONTATO</p>
+                  <p class="endereco">AVENIDA CONTORNO | N° 18 | FLORESTA</p>
+                  <p><a class="suport">vergecompany@gmail.com</a></p> -->
+                    <!-- </a><img src="image/whatsapp.png" width="20" alt=""> (31) 99999-9999
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div> -->
+  
+
+
+    <!--FOOTER -->
+
+    <footer class="bg-dark text-center text-dark">
+        <div class="text-center p-3" style="background-color: rgb(223, 236, 33);">
+            ©FEITO POR LARISSA FELIPE - TODOS OS DIREITOS RESERVADOS
+        </div>
+    </footer>
+
+
+  <script src="detalhes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
