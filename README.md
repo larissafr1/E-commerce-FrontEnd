@@ -9,4 +9,5 @@ Para o trabalho, vamos utilizar um arquivo de wireframes que está disponível e
 ![wireframe-ecommerce](https://user-images.githubusercontent.com/66026511/232250126-0d3017b0-72ae-4485-bd54-3a860eb516a9.png)
 
 Resultado:
-https://i.imgur.com/q5cXLnP.jpeg
+
+![q5cXLnP](https://github.com/larissafr1/FrontEnd/assets/66026511/9a8b7b37-1ed1-46e2-adad-264a251e5b2b)
